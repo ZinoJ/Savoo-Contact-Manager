@@ -1,0 +1,72 @@
+.contactRow {
+  display: flex;
+  align-items: center;
+  background-color: #383838;
+  padding: 0.5rem 1.5rem;
+  gap: 1rem;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.noContact {
+  text-align: center;
+  background-color: #383838;
+  padding: 2rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.contact {
+  flex: 1;
+}
+
+.contact > p {
+  font-size: 0.75rem;
+}
+
+button {
+  padding: 4px 3%;
+  border-radius: 4px;
+  border: none;
+}
+
+button:hover {
+  background-color: #4a5878;
+  color: whitesmoke;
+}
+
+.icon:hover {
+  color: #4a5878;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #4569be;
+  color: whitesmoke;
+  padding: 0 1rem;
+  border-radius: 8px;
+}
+.search > input {
+  background-color: transparent;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.search > input::placeholder {
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 480px) {
+  .contactRow {
+    gap: 0.3rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+}

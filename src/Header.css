@@ -1,0 +1,25 @@
+.header {
+   background-color: #4569be;
+}
+.header__container {
+   margin: 0 7%;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+}
+.header__container > h3{
+   font-size: 1.5rem;
+}
+
+.header__right {
+   display: flex;
+   gap: 1.5rem;
+   align-items: center;
+}
+.bit {
+   white-space: nowrap;
+}
+
+.btn {
+   padding: 4px 1rem;
+}
